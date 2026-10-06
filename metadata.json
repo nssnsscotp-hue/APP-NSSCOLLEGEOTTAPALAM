@@ -1,0 +1,6 @@
+{
+  "name": "NSS College Ottapalam - Privacy & Data Governance",
+  "description": "Official Privacy Policy, Account Deletion, and Content Deletion request portal for the NSS College Ottapalam mobile application.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
