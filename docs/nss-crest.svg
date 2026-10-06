@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 220" fill="none">
+  <defs>
+    <linearGradient id="nssGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F59E0B" />
+      <stop offset="100%" stop-color="#D97706" />
+    </linearGradient>
+    <linearGradient id="shieldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A" />
+      <stop offset="100%" stop-color="#1E293B" />
+    </linearGradient>
+  </defs>
+
+  <!-- Crossed Traditional Kerala Weapons/Instruments at Top -->
+  <!-- Left-to-right sword -->
+  <line x1="60" y1="75" x2="135" y2="25" stroke="#F59E0B" stroke-width="4.5" stroke-linecap="round" />
+  <line x1="68" y1="62" x2="80" y2="76" stroke="#F59E0B" stroke-width="4" stroke-linecap="round" />
+  <circle cx="56" cy="79" r="4.5" fill="#F59E0B" />
+
+  <!-- Right-to-left hooked weapon / sickle -->
+  <path d="M 140 75 L 85 30 Q 110 12 135 22 Q 155 30 148 40" fill="none" stroke="#F59E0B" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" />
+  <circle cx="144" cy="79" r="4.5" fill="#F59E0B" />
+
+  <!-- Center Laurel Wreath -->
+  <g stroke="#F59E0B" stroke-width="2.5" fill="none" stroke-linecap="round">
+    <!-- Left branches -->
+    <path d="M 58 115 C 50 145 68 165 95 172" />
+    <path d="M 58 115 C 52 90 70 70 95 62" />
+    <!-- Left Leaves -->
+    <path d="M 50 100 Q 40 92 48 85 Q 58 92 50 100" fill="#F59E0B" />
+    <path d="M 44 118 Q 32 115 38 105 Q 50 110 44 118" fill="#F59E0B" />
+    <path d="M 48 135 Q 38 142 46 150 Q 55 142 48 135" fill="#F59E0B" />
+    <path d="M 64 156 Q 58 168 68 172 Q 74 162 64 156" fill="#F59E0B" />
+    <path d="M 62 80 Q 60 68 72 70 Q 72 80 62 80" fill="#F59E0B" />
+
+    <!-- Right branches -->
+    <path d="M 142 115 C 150 145 132 165 105 172" />
+    <path d="M 142 115 C 148 90 130 70 105 62" />
+    <!-- Right Leaves -->
+    <path d="M 150 100 Q 160 92 152 85 Q 142 92 150 100" fill="#F59E0B" />
+    <path d="M 156 118 Q 168 115 162 105 Q 150 110 156 118" fill="#F59E0B" />
+    <path d="M 152 135 Q 162 142 154 150 Q 145 142 152 135" fill="#F59E0B" />
+    <path d="M 136 156 Q 142 168 132 172 Q 126 162 136 156" fill="#F59E0B" />
+    <path d="M 138 80 Q 140 68 128 70 Q 128 80 138 80" fill="#F59E0B" />
+  </g>
+
+  <!-- Center Monogram "N S S" Stylized Interlocking Script -->
+  <!-- Outer decorative ring -->
+  <circle cx="100" cy="116" r="38" stroke="#F59E0B" stroke-width="2" stroke-dasharray="2 3" fill="#0A192F" />
+
+  <text x="100" y="125" text-anchor="middle" font-family="'Times New Roman', serif" font-weight="900" font-size="28" fill="#F59E0B" letter-spacing="-1">NSS</text>
+  <text x="100" y="140" text-anchor="middle" font-family="sans-serif" font-weight="700" font-size="7.5" fill="#E2E8F0" letter-spacing="1.5">OTTAPALAM</text>
+
+  <!-- Bottom Ribbon Banner with "NAIR SERVICE SOCIETY" -->
+  <g id="ribbon">
+    <!-- Ribbon tails -->
+    <path d="M 18 190 L 32 174 L 38 194 Z" fill="#B45309" />
+    <path d="M 182 190 L 168 174 L 162 194 Z" fill="#B45309" />
+    <!-- Main scroll arc -->
+    <path d="M 24 186 C 60 178 140 178 176 186 C 168 206 142 208 100 208 C 58 208 32 206 24 186 Z" fill="#0F172A" stroke="#F59E0B" stroke-width="2.5" />
+    <!-- Banner Text -->
+    <path id="textArc" d="M 28 198 C 65 192 135 192 172 198" fill="none" />
+    <text font-family="'Arial Black', Impact, sans-serif" font-size="9" font-weight="900" fill="#F59E0B" text-anchor="middle">
+      <textPath href="#textArc" startOffset="50%">NAIR SERVICE SOCIETY</textPath>
+    </text>
+  </g>
+</svg>

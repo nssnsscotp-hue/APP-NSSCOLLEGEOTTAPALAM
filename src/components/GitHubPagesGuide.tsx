@@ -83,6 +83,44 @@ git push -u origin main`,
         </div>
       </div>
 
+      {/* Immediate White Page Fix Banner */}
+      <div className="p-6 rounded-2xl bg-gradient-to-br from-amber-950/40 via-slate-900 to-slate-950 border-2 border-amber-500/60 shadow-xl mb-8 space-y-4">
+        <div className="flex items-start gap-3">
+          <div className="p-2 rounded-xl bg-amber-500/20 text-amber-400 shrink-0 mt-0.5">
+            <Sparkles className="w-5 h-5" />
+          </div>
+          <div>
+            <h3 className="font-bold text-amber-300 text-base">
+              Fixing the White Page on your GitHub Pages Site
+            </h3>
+            <p className="text-xs text-slate-300 mt-1 leading-relaxed">
+              Why it was white: GitHub Pages was serving uncompiled source code (<code className="text-amber-400 font-mono">src/main.tsx</code>) instead of the bundled JavaScript. We have now generated and committed the pre-compiled production build directly into <code className="text-amber-400 font-mono">docs/</code> and <code className="text-amber-400 font-mono">assets/</code>!
+            </p>
+          </div>
+        </div>
+
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-2">
+          <div className="p-3.5 rounded-xl bg-slate-900/90 border border-emerald-500/30 space-y-1.5">
+            <div className="text-xs font-bold text-emerald-400 flex items-center gap-1.5">
+              <CheckCircle2 className="w-4 h-4" /> Option 1: Set Folder to /docs (Quickest)
+            </div>
+            <p className="text-[11px] text-slate-300">
+              1. On GitHub, go to <strong>Settings</strong> → <strong>Pages</strong>.<br />
+              2. Under <strong>Branch</strong>, change the folder dropdown from <code className="text-slate-400">/ (root)</code> to <strong className="text-amber-400">/docs</strong> and click <strong>Save</strong>.
+            </p>
+          </div>
+
+          <div className="p-3.5 rounded-xl bg-slate-900/90 border border-blue-500/30 space-y-1.5">
+            <div className="text-xs font-bold text-blue-400 flex items-center gap-1.5">
+              <CheckCircle2 className="w-4 h-4" /> Option 2: Push Latest Commits
+            </div>
+            <p className="text-[11px] text-slate-300">
+              Run <code className="text-amber-400 font-mono">git push origin main</code> in your terminal. The root <code className="text-slate-300 font-mono">index.html</code> now includes the auto-loader that displays the app without a white screen!
+            </p>
+          </div>
+        </div>
+      </div>
+
       {/* Arrangements already made in this codebase */}
       <div className="p-6 rounded-2xl bg-slate-950 border border-slate-800 mb-8 space-y-4">
         <h3 className="font-bold text-slate-200 text-sm uppercase tracking-wider flex items-center gap-2">
